@@ -174,9 +174,7 @@ h1, h3 {
   background-color: #f7f7f7;
 }
 
-.fudi-app {
-
-}
+.fudi-app {}
 
 .fudi-app-item {
   width: 540px;
@@ -211,7 +209,8 @@ h1, h3 {
 .fudi-app-phone-img {
   padding: 0;
 }
-.line-img{
+
+.line-img {
   padding-top: 10px;
 }
 
@@ -255,71 +254,85 @@ h1, h3 {
 }
 
 .cuisines {
-text-align: center;
+  text-align: center;
 }
 
 .cusines-head {
-
   margin-top: 100px;
   margin-bottom: 40px;
 }
-.cusines-head h3{
+
+.cusines-head h3 {
   padding-bottom: 5px;
 }
 
 .cuisines-images,
 .image-box,
-.image-item{
+.image-item {
   padding: 0;
   margin: 0;
 }
 
-
-.image-item{
-  display: inline-block;
-  width: 320px;
-  height: 225px;
+.image-box {
+  width: 100%;
+  display: flex;
 }
-.image-item:nth-child(1){
+
+.image-item,
+.image-item-row2 {
+  flex: 0 0 20%;
+  height: 225px;
+  background-size: cover;
+}
+
+.image-item:nth-child(1) {
   background-image: url("../images/italian.png");
 }
-.image-item:nth-child(2){
+
+.image-item:nth-child(2) {
   background-image: url("../images/indian.png");
 }
-.image-item:nth-child(3){
+
+.image-item:nth-child(3) {
   background-image: url("../images/french.png");
 }
-.image-item:nth-child(4){
+
+.image-item:nth-child(4) {
   background-image: url("../images/steake.png");
 }
-.image-item:nth-child(5){
+
+.image-item:nth-child(5) {
   background-image: url("../images/seafood.png");
 }
-.image-item:nth-child(6){
+
+.image-item-row2:nth-child(1) {
   background-image: url("../images/sushi.png");
 }
-.image-item:nth-child(7){
+
+.image-item-row2:nth-child(2) {
   background-image: url("../images/mexican.jpg");
 }
-.image-item:nth-child(8){
+
+.image-item-row2:nth-child(3) {
   background-image: url("../images/chinese.jpg");
 }
-.image-item:nth-child(9){
+
+.image-item-row2:nth-child(4) {
   background-image: url("../images/pizza.jpg");
 }
-.image-item:nth-child(10){
+
+.image-item-row2:nth-child(5) {
   background-image: url("../images/american.jpg");
 }
 
 .cuisine-quantity,
-.cuisine-name{
+.cuisine-name {
   text-align: center;
-  text-shadow: 0.5px 0.866px 40px rgba(1,1,1,0.55);
+  text-shadow: 0.5px 0.866px 40px rgba(1, 1, 1, 0.55);
   margin: 0;
-
 }
 
-.cuisine-quantity{
+.cuisine-quantity {
   padding-top: 70px;
   font-size: 15px;
   letter-spacing: 1px;
@@ -329,7 +342,8 @@ text-align: center;
   font-weight: bold;
   font-style: italic;
 }
-.cuisine-name{
+
+.cuisine-name {
   padding-top: 15px;
   font-size: 36px;
   letter-spacing: 2px;
@@ -338,25 +352,29 @@ text-align: center;
   font-weight: 700;
   text-transform: uppercase;
 }
-.numbers-container{
+
+.numbers-container {
   display: flex;
   justify-content: space-between;
 }
-.numbers-item{
+
+.numbers-item {
   margin: 0;
   padding: 0;
   height: 60px;
   margin: 60px 0;
   text-align: center;
 }
-.number-value{
+
+.number-value {
   font-size: 36px;
   letter-spacing: 2px;
   line-height: 0.8;
   color: #000000;
   font-weight: 700;
 }
-.number-desc{
+
+.number-desc {
   padding-top: 15px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -364,36 +382,40 @@ text-align: center;
   color: #000000;
   font-weight: 300;
 }
-.footer-container{
+
+.footer-container {
   background-color: #f7f7f7;
   border-top: 3px solid #e2e2e2;
 }
-.footer{
 
-}
-.footer-rights{
+.footer {}
+
+.footer-rights {
   float: left;
 }
+
 .footer-rights p,
-.footer-company p{
+.footer-company p {
   margin: 40px 0;
 }
 
-.footer-rights p{
+.footer-rights p {
   font-size: 14px;
   color: #8b8b8b;
   font-weight: 300;
 }
-.footer-company{
+
+.footer-company {
   float: right;
 }
 
-.footer-company p{
+.footer-company p {
   font-size: 14px;
   letter-spacing: 3px;
   color: #8b8b8b;
   font-weight: 300;
 }
-.footer-company strong{
+
+.footer-company strong {
   color: #101010;
 }
